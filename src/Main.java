@@ -37,15 +37,15 @@ public class Main {
             System.out.println("Если возраст человека равен " + ageHuman + ", то ему нужно ходить в школу");
         }
         if (ageHuman >= 18 && ageHuman <= 24) {
-            System.out.println("Если возраст человека равен " + ageHuman + ", то его место в университете");
+            System.out.println("Если возраст человека равен " + ageHuman + ", то ему нужно ходить в университет");
         }
         if (ageHuman > 24) {
-            System.out.println("Если возраст человека равен " + ageHuman + ", то ему пора ходить на работу");
+            System.out.println("Если возраст человека равен " + ageHuman + ", то ему нужно ходить на работу");
         }
 
         ///Task5\\\
 
-        int ageChild = 15;
+        int ageChild = 14;
         if (ageChild < 5) {
             System.out.println("Если возраст ребёнка равен " + ageChild + ", то ему нельзя кататься на аттракционе");
         }
@@ -82,7 +82,7 @@ public class Main {
         if (one > two && one > three) {
             System.out.println("Наибольшее число: one = " + one);
         } else if (two > one && two > three) {
-            System.out.println("Наибольшее число: one = " + one);
+            System.out.println("Наибольшее число: two = " + two);
         } else if (three > one && three > two) {
             System.out.println("Наибольшее число: three = " + three);
         }
